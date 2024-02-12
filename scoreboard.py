@@ -1,7 +1,5 @@
 from turtle import Turtle
 
-### Cand ai setari ce se pot schimba din cod cel mai bine ar fi sa fie hard bodied la inceput in așa fel cand ai
-# nevoie sa schimbi ceva la interfata se poate face usor din primele randuri.
 ALINGMENT = "center"
 FONT = ("Courier", 20, "normal")
 
@@ -34,7 +32,3 @@ class Scoreboard(Turtle):
         self.score = 0
         self.update_scoreboard()
 
-    # def game_over(self):
-    #     self.hideturtle()
-    #     self.goto(0, 0)
-    #     self.write("GAME OVER", align=ALINGMENT, font=FONT)
